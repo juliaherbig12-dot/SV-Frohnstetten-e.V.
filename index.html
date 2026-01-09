@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Frohnstetten 1925 e.V. | Modern</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)), 
+                        url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-white font-bold text-xl">SVF</div>
+                    <span class="text-2xl font-bold tracking-tight text-blue-900 uppercase">SV Frohnstetten</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#" class="text-blue-900 border-b-2 border-blue-900 pb-1">Home</a>
+                    <a href="#" class="hover:text-blue-700 transition">Verein</a>
+                    <a href="#" class="hover:text-blue-700 transition">Fußball</a>
+                    <a href="#" class="hover:text-blue-700 transition">Breitensport</a>
+                    <a href="#" class="hover:text-blue-700 transition">Kontakt</a>
+                </div>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient h-[60vh] flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">Blau & Weiß ein Leben lang</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto opacity-90">Dein Sportverein in Frohnstetten. Leidenschaft, Gemeinschaft und Erfolg seit 1925.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#news" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition shadow-xl">Aktuelles</a>
+                <a href="#" class="bg-white hover:bg-gray-100 text-blue-900 px-8 py-3 rounded-full font-bold transition shadow-xl">Mitglied werden</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-blue-900 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="flex items-center justify-center space-x-4">
+                <i class="fa-solid fa-calendar-days text-3xl opacity-50"></i>
+                <div class="text-left">
+                    <p class="text-xs uppercase opacity-70">Nächstes Spiel</p>
+                    <p class="font-bold">SVF vs. Gastverein (So. 15:00)</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center space-x-4 border-y md:border-y-0 md:border-x border-blue-800 py-4 md:py-0">
+                <i class="fa-solid fa-utensils text-3xl opacity-50"></i>
+                <div class="text-left">
+                    <p class="text-xs uppercase opacity-70">Sportheim</p>
+                    <p class="font-bold">Geöffnet: Freitag ab 19:00</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center space-x-4">
+                <i class="fa-solid fa-users text-3xl opacity-50"></i>
+                <div class="text-left">
+                    <p class="text-xs uppercase opacity-70">Mitglieder</p>
+                    <p class="font-bold">Über 450 begeisterte Sportler</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="news" class="max-w-7xl mx-auto px-4 py-20">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h2 class="text-4xl font-bold text-gray-800">Aktuelle Neuigkeiten</h2>
+                <div class="w-20 h-1 bg-blue-600 mt-2"></div>
+            </div>
+            <a href="#" class="text-blue-600 font-bold hover:underline">Alle News &rarr;</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&q=80&w=800" class="h-48 w-full object-cover" alt="News">
+                <div class="p-6">
+                    <span class="text-blue-600 text-sm font-bold uppercase">Fußball</span>
+                    <h3 class="text-xl font-bold mt-2 mb-3 leading-tight">Heimsieg im Lokalderby!</h3>
+                    <p class="text-gray-600 mb-4">In einem spannenden Spiel setzte sich unsere Erste Mannschaft verdient mit 3:1 durch...</p>
+                    <a href="#" class="text-blue-900 font-bold text-sm">Mehr lesen...</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800" class="h-48 w-full object-cover" alt="News">
+                <div class="p-6">
+                    <span class="text-green-600 text-sm font-bold uppercase">Breitensport</span>
+                    <h3 class="text-xl font-bold mt-2 mb-3 leading-tight">Neue Yoga-Kurse starten</h3>
+                    <p class="text-gray-600 mb-4">Ab nächstem Monat bieten wir jeden Dienstagabend Yoga für Anfänger und Fortgeschrittene an.</p>
+                    <a href="#" class="text-blue-900 font-bold text-sm">Mehr lesen...</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&q=80&w=800" class="h-48 w-full object-cover" alt="News">
+                <div class="p-6">
+                    <span class="text-orange-600 text-sm font-bold uppercase">Verein</span>
+                    <h3 class="text-xl font-bold mt-2 mb-3 leading-tight">Generalversammlung 2024</h3>
+                    <p class="text-gray-600 mb-4">Herzliche Einladung an alle Mitglieder zur diesjährigen Generalversammlung im Sportheim.</p>
+                    <a href="#" class="text-blue-900 font-bold text-sm">Mehr lesen...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-12">
+            <div class="col-span-1 md:col-span-2">
+                <h4 class="text-2xl font-bold mb-6">SV Frohnstetten 1925 e.V.</h4>
+                <p class="text-gray-400 max-w-md">Wir fördern den Sport und die Gemeinschaft in unserer Region. Werde Teil unserer Familie und erlebe Sport in einer tollen Atmosphäre.</p>
+                <div class="flex space-x-4 mt-6">
+                    <a href="#" class="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-blue-600 transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-pink-600 transition"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">Links</h4>
+                <ul class="space-y-4 text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">Datenschutz</a></li>
+                    <li><a href="#" class="hover:text-white transition">Impressum</a></li>
+                    <li><a href="#" class="hover:text-white transition">Downloads</a></li>
+                    <li><a href="#" class="hover:text-white transition">Sponsoren</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">Kontakt</h4>
+                <p class="text-gray-400">Musterstraße 1<br>72510 Stetten am k.M.<br>Frohnstetten</p>
+                <p class="mt-4 text-blue-400">info@sv-frohnstetten.de</p>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-gray-500 text-sm">
+            &copy; 2024 SV Frohnstetten. Erstellt für eine moderne Zukunft.
+        </div>
+    </footer>
+
+</body>
+</html>
