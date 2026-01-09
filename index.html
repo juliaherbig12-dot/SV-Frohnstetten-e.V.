@@ -1,212 +1,103 @@
-<!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SV Frohnstetten 1925 e.V. | Sport & Gemeinschaft</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
-        
-        body { font-family: 'Inter', sans-serif; }
-        
-        .hero-bg {
-            background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.6)), 
-                        url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=2000') center/cover;
-        }
-        
-        .section-skew {
-            clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
-        }
-
-        .card-hover:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-        }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-900">
-
-    <nav class="bg-white/90 backdrop-blur-lg sticky top-0 z-50 border-b border-blue-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
-            <div class="flex items-center gap-4">
-                <div class="w-12 h-12 bg-blue-700 rounded-xl flex items-center justify-center text-white shadow-lg rotate-3 hover:rotate-0 transition-transform">
-                    <span class="font-black text-xl italic">SVF</span>
-                </div>
-                <div class="hidden sm:block">
-                    <h1 class="text-xl font-black text-blue-900 leading-none uppercase italic">SV Frohnstetten</h1>
-                    <p class="text-[10px] font-bold text-blue-500 tracking-widest uppercase mt-1">Gegründet 1925</p>
-                </div>
-            </div>
-            
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="#fussball" class="text-sm font-bold text-slate-600 hover:text-blue-700 transition">Fußball</a>
-                <a href="#hallensport" class="text-sm font-bold text-slate-600 hover:text-blue-700 transition">Hallensport</a>
-                <a href="#turnen" class="text-sm font-bold text-slate-600 hover:text-blue-700 transition">Turnen</a>
-                <a href="#kontakt" class="bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-800 shadow-md transition">Mitglied werden</a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="hero-bg min-h-[70vh] flex items-center justify-center text-center px-6 text-white">
-        <div class="max-w-4xl">
-            <span class="bg-blue-500/30 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.3em] mb-6 inline-block border border-blue-400/30">Wir sind Blau-Weiß</span>
-            <h2 class="text-5xl md:text-7xl font-black uppercase italic mb-6 leading-tight drop-shadow-lg">
-                Tradition & <span class="text-blue-400">Leidenschaft</span>
-            </h2>
-            <p class="text-lg md:text-xl font-medium opacity-90 mb-10 max-w-2xl mx-auto">
-                Willkommen beim SV Frohnstetten. Seit fast 100 Jahren bewegen wir Generationen in Frohnstetten und Umgebung.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#fussball" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-black uppercase text-sm hover:bg-blue-50 transition-all shadow-xl">Aktuelle Berichte</a>
-                <a href="#hallensport" class="bg-transparent border-2 border-white/50 hover:border-white text-white px-10 py-4 rounded-xl font-black uppercase text-sm backdrop-blur-sm transition-all">Breitensport</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="fussball" class="py-24 max-w-7xl mx-auto px-6">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
-            <div>
-                <span class="text-blue-600 font-bold uppercase tracking-widest text-sm">Der Ball rollt</span>
-                <h2 class="text-4xl font-black text-blue-950 uppercase italic mt-2">Fußballabteilung</h2>
-            </div>
-            <a href="#" class="text-blue-700 font-bold hover:underline">Alle Spielpläne &rarr;</a>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition-all">
-                <div class="w-14 h-14 bg-blue-100 text-blue-700 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-700 group-hover:text-white transition-colors">
-                    <i class="fa-solid fa-users"></i>
-                </div>
-                <h3 class="font-black text-2xl mb-3 uppercase italic">Herren</h3>
-                <p class="text-slate-600 mb-6 leading-relaxed">Von der 1. Mannschaft bis zur AH. Wir stehen für Teamgeist und Einsatz auf dem Rasen.</p>
-                <a href="#" class="inline-flex items-center font-bold text-blue-700 gap-2 group-hover:gap-4 transition-all">Details ansehen <i class="fa-solid fa-arrow-right"></i></a>
+ont-black text-2xl mb-3 italic uppercase">Aktive Herren</h3>
+                <p class="text-slate-600 mb-6">Unsere 1. und 2. Mannschaft im Spielbetrieb sowie unsere AH-Truppe.</p>
+                <a href="herren.html" class="bg-blue-900 text-white px-4 py-2 rounded text-xs font-bold uppercase hover:bg-blue-700 transition">Zum Team &rarr;</a>
             </div>
 
-            <div class="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition-all">
-                <div class="w-14 h-14 bg-pink-100 text-pink-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-pink-600 group-hover:text-white transition-colors">
-                    <i class="fa-solid fa-venus"></i>
-                </div>
-                <h3 class="font-black text-2xl mb-3 uppercase italic">Frauen</h3>
-                <p class="text-slate-600 mb-6 leading-relaxed">Starker Fußball, starkes Team. Unsere Damenfußball-Abteilung freut sich auf Dich.</p>
-                <a href="#" class="inline-flex items-center font-bold text-pink-600 gap-2 group-hover:gap-4 transition-all">Details ansehen <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="bg-slate-50 p-10 rounded-2xl border-b-4 border-pink-600 shadow-sm hover:shadow-xl transition-all group">
+                <div class="text-pink-600 text-3xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-venus"></i></div>
+                <h3 class="font-black text-2xl mb-3 italic uppercase">Frauenfußball</h3>
+                <p class="text-slate-600 mb-6">Leidenschaft und Teamgeist bei unseren Damenmannschaften.</p>
+                <a href="frauen.html" class="bg-pink-600 text-white px-4 py-2 rounded text-xs font-bold uppercase hover:bg-pink-700 transition">Zum Team &rarr;</a>
             </div>
 
-            <div class="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition-all">
-                <div class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
-                    <i class="fa-solid fa-child-reaching"></i>
-                </div>
-                <h3 class="font-black text-2xl mb-3 uppercase italic">Jugend</h3>
-                <p class="text-slate-600 mb-6 leading-relaxed">Unsere Zukunft. Ausbildung und Spaß am Spiel für Jungen und Mädchen aller Altersklassen.</p>
-                <a href="#" class="inline-flex items-center font-bold text-green-700 gap-2 group-hover:gap-4 transition-all">Nachwuchs-Bereich <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="bg-slate-50 p-10 rounded-2xl border-b-4 border-green-600 shadow-sm hover:shadow-xl transition-all group">
+                <div class="text-green-600 text-3xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-child-reaching"></i></div>
+                <h3 class="font-black text-2xl mb-3 italic uppercase text-green-700">Jugendfußball</h3>
+                <p class="text-slate-600 mb-6">Mädchen- und Jungenfußball von den Bambinis bis zur A-Jugend.</p>
+                <a href="jugend.html" class="bg-green-600 text-white px-4 py-2 rounded text-xs font-bold uppercase hover:bg-green-700 transition">Nachwuchs &rarr;</a>
             </div>
         </div>
     </section>
 
-    <section id="hallensport" class="bg-blue-950 py-24 text-white overflow-hidden relative">
-        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-700/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
-        <div class="max-w-7xl mx-auto px-6 relative">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-black uppercase italic tracking-tighter mb-4">Vielfalt in der Halle</h2>
-                <p class="text-blue-300 max-w-xl mx-auto font-medium">Ob am Netz, an der Platte oder auf zwei Rädern – unser Hallensport bietet für jeden das Richtige.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div class="text-center group">
-                    <div class="mb-6 relative inline-block">
-                        <div class="absolute inset-0 bg-blue-500 rounded-full blur-lg opacity-20 group-hover:opacity-50 transition-opacity"></div>
-                        <i class="fa-solid fa-volleyball text-5xl text-blue-400 relative"></i>
-                    </div>
-                    <h3 class="text-xl font-black uppercase italic mb-3">Volleyball</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Dynamik und Ballgefühl in unserer Volleyball-Abteilung.</p>
-                    <a href="#" class="text-xs font-bold uppercase tracking-widest hover:text-blue-400 transition">Info</a>
-                </div>
-
-                <div class="text-center group">
-                    <div class="mb-6 relative inline-block">
-                        <div class="absolute inset-0 bg-orange-500 rounded-full blur-lg opacity-20 group-hover:opacity-50 transition-opacity"></div>
-                        <i class="fa-solid fa-table-tennis-paddle-ball text-5xl text-orange-400 relative"></i>
-                    </div>
-                    <h3 class="text-xl font-black uppercase italic mb-3">Tischtennis</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Präzision und Schnelligkeit beim SV Frohnstetten.</p>
-                    <a href="#" class="text-xs font-bold uppercase tracking-widest hover:text-orange-400 transition">Info</a>
-                </div>
-
-                <div class="text-center group">
-                    <div class="mb-6 relative inline-block">
-                        <div class="absolute inset-0 bg-cyan-400 rounded-full blur-lg opacity-20 group-hover:opacity-50 transition-opacity"></div>
-                        <i class="fa-solid fa-bicycle text-5xl text-cyan-400 relative"></i>
-                    </div>
-                    <h3 class="text-xl font-black uppercase italic mb-3">Kunstrad</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Akrobatik und Eleganz auf höchstem Niveau.</p>
-                    <a href="#" class="text-xs font-bold uppercase tracking-widest hover:text-cyan-400 transition">Info</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="turnen" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-16 items-center">
-            <div class="lg:w-1/2">
-                <h2 class="text-5xl font-black text-blue-900 uppercase italic mb-6 leading-none">Turnen &<br><span class="text-blue-500 text-4xl">Gymnastik</span></h2>
-                <p class="text-slate-600 text-lg mb-8 leading-relaxed">
-                    Unsere Turnabteilung ist das Herzstück für Fitness und Gesundheit. Wir bieten Programme für jede Altersgruppe – vom ersten Purzelbaum bis zur Seniorengymnastik.
-                </p>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 p-4 rounded-2xl bg-slate-50 border-l-4 border-blue-700">
-                        <span class="font-bold text-blue-900">Kinderturnen</span>
-                        <span class="text-slate-400 text-sm ml-auto">Immer Montags</span>
-                    </div>
-                    <div class="flex items-center gap-4 p-4 rounded-2xl bg-slate-50 border-l-4 border-pink-500">
-                        <span class="font-bold text-blue-900">Frauengymnastik</span>
-                        <span class="text-slate-400 text-sm ml-auto">Immer Mittwochs</span>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-                <div class="h-64 bg-slate-200 rounded-3xl overflow-hidden shadow-inner">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Gym">
-                </div>
-                <div class="h-64 bg-slate-200 rounded-3xl overflow-hidden shadow-inner mt-8">
-                    <img src="https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Gym">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-slate-900 text-white pt-20 pb-10">
+    <section id="hallensport" class="bg-slate-950 py-24 text-white section-curve">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <div class="md:col-span-2">
-                    <h3 class="text-2xl font-black uppercase italic mb-6">SV Frohnstetten 1925 e.V.</h3>
-                    <p class="text-slate-400 max-w-sm mb-6 font-light">Dein Sportverein auf der Schwäbischen Alb. Gemeinschaft, Leidenschaft und Erfolg seit über 100 Jahren.</p>
-                    <div class="flex gap-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-pink-600 transition"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="font-bold uppercase text-sm tracking-widest mb-6">Links</h4>
-                    <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="#" class="hover:text-white transition">Downloads</a></li>
-                        <li><a href="#" class="hover:text-white transition">Vereinsheim</a></li>
-                        <li><a href="#" class="hover:text-white transition">Vorstandschaft</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold uppercase text-sm tracking-widest mb-6">Rechtliches</h4>
-                    <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="#" class="hover:text-white transition">Impressum</a></li>
-                        <li><a href="#" class="hover:text-white transition">Datenschutz</a></li>
-                        <li><a href="#" class="hover:text-white transition">Kontakt</a></li>
-                    </ul>
-                </div>
+            <div class="mb-16">
+                <h2 class="text-4xl font-black uppercase italic tracking-tighter">Hallensport</h2>
+                <div class="w-20 h-2 bg-blue-400 mt-2"></div>
             </div>
-            <div class="border-t border-slate-800 pt-8 text-center text-xs text-slate-500 font-bold uppercase tracking-[0.2em]">
-                &copy; 2026 SV Frohnstetten
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div class="bg-slate-900 p-10 rounded-2xl border-b-4 border-blue-400 shadow-md hover:shadow-blue-500/10 transition-all group">
+                    <div class="text-blue-400 text-3xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-volleyball"></i></div>
+                    <h3 class="font-black text-2xl mb-3 italic uppercase">Volleyball</h3>
+                    <p class="text-slate-400 mb-6">Actionreiches Spiel für alle Altersgruppen in der Halle.</p>
+                    <a href="volleyball.html" class="inline-block border border-blue-400 text-blue-400 px-4 py-2 rounded text-xs font-bold uppercase hover:bg-blue-400 hover:text-white transition">Details &rarr;</a>
+                </div>
+
+                <div class="bg-slate-900 p-10 rounded-2xl border-b-4 border-orange-400 shadow-md transition-all group">
+                    <div class="text-orange-400 text-3xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-table-tennis-paddle-ball"></i></div>
+                    <h3 class="font-black text-2xl mb-3 italic uppercase">Tischtennis</h3>
+                    <p class="text-slate-400 mb-6">Schnelle Ballwechsel und Konzentration pur an der Platte.</p>
+                    <a href="tischtennis.html" class="inline-block border border-orange-400 text-orange-400 px-4 py-2 rounded text-xs font-bold uppercase hover:bg-orange-400 hover:text-white transition">Details &rarr;</a>
+                </div>
+
+                <div class="bg-slate-900 p-10 rounded-2xl border-b-4 border-blue-300 shadow-md transition-all group">
+                    <div class="text-blue-300 text-3xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-bicycle"></i></div>
+                    <h3 class="font-black text-2xl mb-3 italic uppercase">Kunstrad</h3>
+                    <p class="text-slate-400 mb-6">Geschicklichkeit und Ästhetik auf zwei Rädern.</p>
+                    <a href="kunstrad.html" class="inline-block border border-blue-300 text-blue-300 px-4 py-2 rounded text-xs font-bold uppercase hover:bg-blue-300 hover:text-white transition">Details &rarr;</a>
+                </div>
             </div>
         </div>
+    </section>
+
+    <section id="turnen" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-start gap-16">
+            <div class="lg:w-1/3">
+                <h2 class="text-5xl font-black text-blue-900 uppercase italic leading-[0.9]">Turnen &<br>Gymnastik</h2>
+                <p class="mt-6 text-slate-600 italic">Ein wichtiger Grundpfeiler unseres Vereins für jede Generation.</p>
+            </div>
+            
+            <div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
+                <div class="bg-white border-b-4 border-blue-400 shadow-sm p-8 rounded-xl hover:bg-blue-900 hover:text-white transition-all group duration-300">
+                    <h4 class="font-black text-xl mb-1 uppercase italic">Kinderturnen</h4>
+                    <p class="text-sm opacity-70 group-hover:text-white uppercase font-bold tracking-widest">Die ersten Schritte</p>
+                    <a href="kinderturnen.html" class="mt-4 inline-block text-xs font-bold uppercase group-hover:text-blue-200">Mehr erfahren</a>
+                </div>
+
+                <div class="bg-white border-b-4 border-pink-600 shadow-sm p-8 rounded-xl hover:bg-pink-600 hover:text-white transition-all group duration-300">
+                    <h4 class="font-black text-xl mb-1 uppercase italic">Frauengymnastik</h4>
+                    <p class="text-sm opacity-70 group-hover:text-white uppercase font-bold tracking-widest">Fitness & Balance</p>
+                    <a href="gymnastik.html" class="mt-4 inline-block text-xs font-bold uppercase group-hover:text-pink-100">Mehr erfahren</a>
+                </div>
+
+                <div class="bg-white border-b-4 border-slate-700 shadow-sm p-8 rounded-xl hover:bg-slate-700 hover:text-white transition-all group duration-300">
+                    <h4 class="font-black text-xl mb-1 uppercase italic">Seniorenturnen</h4>
+                    <p class="text-sm opacity-70 group-hover:text-white uppercase font-bold tracking-widest">Aktiv & Gesund</p>
+                    <a href="senioren.html" class="mt-4 inline-block text-xs font-bold uppercase group-hover:text-slate-200">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-100 pt-20 pb-10 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-lg font-black text-blue-900 uppercase italic">SV Frohnstetten 1925 e.V.</p>
+                <div class="flex space-x-6 mt-4">
+                    <a href="#" class="text-2xl text-slate-400 hover:text-blue-600"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-2xl text-slate-400 hover:text-pink-600"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap md:justify-end gap-x-8 gap-y-4 text-xs font-black uppercase tracking-tighter text-slate-500">
+                <a href="#" class="hover:text-blue-900 transition">Impressum</a>
+                <a href="#" class="hover:text-blue-900 transition">Datenschutz</a>
+                <a href="#" class="hover:text-blue-900 transition">Downloads</a>
+                <a href="#" class="text-blue-600 hover:text-blue-900">Kontakt anfragen</a>
+            </div>
+        </div>
+        <div class="text-center mt-20 text-[10px] text-slate-400 font-bold uppercase tracking-widest">&copy; 2026 SV Frohnstetten.</div>
     </footer>
 
 </body>
