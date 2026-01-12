@@ -1,105 +1,77 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team | SV Frohnstetten 1925 e.V.</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
-    <nav class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
-            <div class="flex items-center space-x-3">
-                <a href="index.html" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-blue-900 rounded flex items-center justify-center text-white font-bold">SVF</div>
-                    <span class="text-xl font-black text-blue-900 tracking-tighter uppercase italic">Mannschaften</span>
-                </a>
-            </div>
-            <a href="index.html" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-blue-900 transition italic">
-                <i class="fa-solid fa-arrow-left mr-2"></i> Zurück
-            </a>
-        </div>
-    </nav>
-
-    <header class="bg-blue-900 py-12 text-white text-center">
-        <div class="max-w-7xl mx-auto px-6">
-            <h1 class="text-4xl md:text-5xl font-black uppercase italic tracking-tighter">
-                Aktive Damen
-            </h1>
-            <p class="text-blue-300 font-bold uppercase tracking-[0.3em] mt-2 text-xs">Saison 2025/2026</p>
-        </div>
-    </header>
-
-    <section class="max-w-5xl mx-auto px-6 -mt-8">
-        <div class="bg-white p-2 rounded-2xl shadow-xl">
-            <div class="rounded-xl overflow-hidden h-[300px] md:h-[450px] bg-slate-200">
-                <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=1600" 
-                     alt="Teamfoto" 
-                     class="w-full h-full object-cover">
-            </div>
-        </div>
-    </section>
-
-    <main class="max-w-7xl mx-auto px-6 py-16 italic">
-        
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <div class="space-y-8">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                    <h3 class="font-black uppercase text-blue-900 mb-4 border-b-2 border-blue-100 pb-2">Training</h3>
-                    <div class="space-y-4 text-sm font-medium">
-                        <p class="flex justify-between"><span>Dienstag:</span> <span class="text-blue-600">19:00 Uhr</span></p>
-                        <p class="flex justify-between"><span>Donnerstag:</span> <span class="text-blue-600">19:00 Uhr</span></p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                    <h3 class="font-black uppercase text-blue-900 mb-4 border-b-2 border-blue-100 pb-2">Ansprechpartner</h3>
-                    <p class="font-bold">Max Mustermann</p>
-                    <p class="text-xs text-slate-500 uppercase mb-4">Abteilungsleiter</p>
-                    <a href="mailto:info@svf.de" class="text-blue-600 font-bold text-sm hover:underline">
-                        <i class="fa-solid fa-envelope mr-2"></i>E-Mail schreiben
-                    </a>
-                </div>
-            </div>
-
-            <div class="lg:col-span-2">
-                <div class="bg-white p-2 rounded-2xl shadow-sm border border-slate-100 min-h-[500px]">
-                    <div class="bg-slate-50 rounded-xl h-full flex items-center justify-center p-10 border-2 border-dashed border-slate-200 text-center">
-                        <div>
-                            <i class="fa-solid fa-ranking-star text-4xl text-slate-300 mb-4"></i>
-                            <p class="text-slate-400 font-bold uppercase tracking-widest text-sm">Tabelle & Spielplan<br>(Fussball.de Widget)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-24">
+<div class="mt-24">
             <div class="flex items-center gap-4 mb-12">
                 <h2 class="text-3xl font-black uppercase text-blue-900">Der Kader</h2>
                 <div class="flex-grow h-[2px] bg-slate-200"></div>
             </div>
-            
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
-                    <div class="h-60 bg-slate-100 flex items-center justify-center">
-                        <i class="fa-solid fa-user text-4xl text-slate-300 group-hover:scale-110 transition"></i>
-                    </div>
-                    <div class="p-4 border-t border-slate-50">
-                        <p class="text-[10px] font-bold text-blue-500 uppercase mb-1">Position</p>
-                        <h4 class="font-black uppercase text-blue-900 leading-none">Vorname Name</h4>
+
+            <div class="mb-16">
+                <h3 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-6 flex items-center">
+                    <span class="bg-blue-600 w-2 h-2 rounded-full mr-2"></span> Torhüterinnen
+                </h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
+                        <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                            <i class="fa-solid fa-user text-5xl text-slate-300 group-hover:scale-110 transition"></i>
+                            <div class="absolute bottom-3 left-3 bg-blue-900 text-white text-[10px] font-bold px-2 py-1 rounded">Nr. 1</div>
+                        </div>
+                        <div class="p-4">
+                            <p class="font-black uppercase text-sm">Vorname Name</p>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase italic">Torwart</p>
+                        </div>
                     </div>
                 </div>
-                </div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-6 flex items-center">
+                    <span class="bg-blue-600 w-2 h-2 rounded-full mr-2"></span> Abwehr
+                </h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
+                        <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                            <i class="fa-solid fa-user text-5xl text-slate-300 group-hover:scale-110 transition"></i>
+                            <div class="absolute bottom-3 left-3 bg-blue-900 text-white text-[10px] font-bold px-2 py-1 rounded">Nr. 4</div>
+                        </div>
+                        <div class="p-4">
+                            <p class="font-black uppercase text-sm">Vorname Name</p>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase italic">Abwehr</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
+                        <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                            <i class="fa-solid fa-user text-5xl text-slate-300 group-hover:scale-110 transition"></i>
+                            <div class="absolute bottom-3 left-3 bg-blue-900 text-white text-[10px] font-bold px-2 py-1 rounded">Nr. 5</div>
+                        </div>
+                        <div class="p-4">
+                            <p class="font-black uppercase text-sm">Vorname Name</p>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase italic">Abwehr</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
+                        <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                            <i class="fa-solid fa-user text-5xl text-slate-300 group-hover:scale-110 transition"></i>
+                            <div class="absolute bottom-3 left-3 bg-blue-900 text-white text-[10px] font-bold px-2 py-1 rounded">Nr. 12</div>
+                        </div>
+                        <div class="p-4">
+                            <p class="font-black uppercase text-sm">Vorname Name</p>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase italic">Abwehr</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-lg transition">
+                        <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                            <i class="fa-solid fa-user text-5xl text-slate-300 group-hover:scale-110 transition"></i>
+                            <div class="absolute bottom-3 left-3 bg-blue-900 text-white text-[10px] font-bold px-2 py-1 rounded">Nr. 15</div>
+                        </div>
+                        <div class="p-4">
+                            <p class="font-black uppercase text-sm">Vorname Name</p>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase italic">Abwehr</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+            </div>
         </div>
-    </main>
-
-    <footer class="bg-slate-100 py-10 text-center border-t border-slate-200">
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.5em]">SV Frohnstetten 1925 e.V.</p>
-    </footer>
-
-</body>
-</html>
