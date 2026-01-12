@@ -57,29 +57,71 @@
         </div>
     </header>
 
-    <section id="aktuell" class="py-24 bg-slate-50">
+<section id="aktuell" class="py-24 bg-slate-50 border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-6">
-            <div id="verein" class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-                <div>
-                    <div class="inline-block bg-blue-900 text-white px-3 py-1 rounded text-[10px] font-bold uppercase tracking-widest mb-4">News & Historie</div>
-                    <h2 class="text-4xl font-black text-blue-900 uppercase italic mb-6">Aktuelles & Verein</h2>
-                    <p class="text-slate-600 mb-6 text-lg leading-relaxed">Seit 1925 ist der SV Frohnstetten der Treffpunkt für Sportbegeisterte auf der Alb. Wir verbinden Tradition mit moderner Vereinsarbeit und einer starken Gemeinschaft.</p>
-                    <div class="bg-white p-6 rounded-xl border-l-4 border-blue-600 shadow-sm">
-                        <h4 class="font-bold text-blue-900 uppercase text-sm mb-2"><i class="fa-solid fa-calendar-day mr-2"></i>Nächste Termine:</h4>
-                        <p class="text-sm text-slate-700 font-medium">Mitgliederversammlung & Sportfest 2026 – Termine folgen in Kürze!</p>
-                    </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div class="max-w-2xl">
+                    <div class="inline-block bg-blue-900 text-white px-3 py-1 rounded text-[10px] font-bold uppercase tracking-widest mb-4 shadow-sm">News & Verein</div>
+                    <h2 class="text-5xl font-black text-blue-900 uppercase italic leading-none">Unser Verein</h2>
+                    <p class="text-slate-600 mt-6 text-lg">Seit 1925 das sportliche Herz von Frohnstetten. Hier findest du alle aktuellen Informationen, wichtige Dokumente und Einblicke in unsere Vereinsstruktur.</p>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-white shadow-lg h-48 rounded-3xl flex flex-col items-center justify-center border border-slate-100 group hover:border-blue-500 transition-colors">
-                        <span class="text-blue-900 font-black text-5xl">1925</span>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-slate-400 mt-2">Gründungsjahr</span>
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-blue-100 flex items-center space-x-6">
+                    <div class="text-center border-r border-slate-100 pr-6">
+                        <span class="block text-3xl font-black text-blue-900 italic">1925</span>
+                        <span class="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">Gründung</span>
                     </div>
-                    <div class="bg-blue-900 shadow-lg h-48 rounded-3xl flex flex-col items-center justify-center group hover:bg-blue-800 transition-colors">
-                        <span class="text-white font-black text-5xl">SVF</span>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-blue-300 mt-2">Frohnstetten</span>
+                    <div class="text-center">
+                        <span class="block text-3xl font-black text-blue-600 italic">SVF</span>
+                        <span class="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">Frohnstetten</span>
                     </div>
                 </div>
             </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+                    <h4 class="text-xs font-black text-blue-900 uppercase tracking-widest mb-4 border-b pb-2">Organisation</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-user-tie mr-2 text-blue-400"></i>Vorstand</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-graduation-cap mr-2 text-blue-400"></i>Übungsleiter</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-link mr-2 text-blue-400"></i>Wichtige Links</a></li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+                    <h4 class="text-xs font-black text-blue-900 uppercase tracking-widest mb-4 border-b pb-2">Rechtliches</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-scale-balanced mr-2 text-slate-400"></i>Satzung</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-gavel mr-2 text-slate-400"></i>Jugendordnung</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-shield-heart mr-2 text-green-500"></i>Kinderschutz</a></li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all border-l-4 border-l-blue-600">
+                    <h4 class="text-xs font-black text-blue-600 uppercase tracking-widest mb-4 border-b pb-2">Mitglied werden</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-coins mr-2 text-yellow-500"></i>Beitragsordnung</a></li>
+                        <li><a href="#" class="bg-blue-600 text-white px-3 py-2 rounded-lg text-xs font-black uppercase text-center block hover:bg-blue-700 transition shadow-lg shadow-blue-900/10">Aufnahmeformular</a></li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all">
+                    <h4 class="text-xs font-black text-blue-900 uppercase tracking-widest mb-4 border-b pb-2">Historie</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-scroll mr-2 text-amber-600"></i>Gründungsprotokoll</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-music mr-2 text-pink-500"></i>Vereinslied</a></li>
+                        <li><a href="#" class="text-sm font-bold text-slate-600 hover:text-blue-600 flex items-center"><i class="fa-solid fa-circle-info mr-2 text-blue-400"></i>Impressum & Datenschutz</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mt-8 bg-blue-900 p-4 rounded-2xl flex items-center shadow-lg">
+                <div class="bg-blue-600 text-white px-3 py-1 rounded text-[10px] font-black uppercase tracking-widest mr-4">Termin</div>
+                <p class="text-white text-sm font-medium">Mitgliederversammlung & Sportfest 2026 – Alle Termine erscheinen in Kürze hier!</p>
+            </div>
+
         </div>
     </section>
 
